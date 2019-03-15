@@ -7,7 +7,7 @@ def reformat_languages(languages)
     if !new_hash[language]
      new_hash[language] = {}
    end
-   
+   new_hash[]
   end
  end
 end
