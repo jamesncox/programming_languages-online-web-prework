@@ -12,7 +12,7 @@ def reformat_languages(languages)
    new_hash[language][:style] ||= []
    new_hash[language][:style] << style
     if !new_hash[language][attribute]
-      
+      new_hash[language][attribute] = str_value
     end
    end
   end
