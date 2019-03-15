@@ -2,6 +2,7 @@ require "pry"
 
 def reformat_languages(languages)
  new_hash = {}
- binding.pry
- hash[:ruby] = {type: "interpreted"}
+ languages.each do |k, v|
+   binding.pry
+ end
 end
