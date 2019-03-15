@@ -5,4 +5,3 @@ def reformat_languages(languages)
  binding.pry
  hash[:ruby] = {type: "interpreted"}
 end
-new_hash
